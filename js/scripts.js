@@ -3,8 +3,17 @@ function Order(name, size, toppings) {
   this.name = name;
   this.size = size;
   this.toppings = toppings;
-  this.price = this.
+  this.price = this.orderPrice();
 }
+
+Order.prototype.orderPrice = function () {
+  var cost = 10;
+  for (i = 0; i < this.toppings.length; i++) {
+    cost += 5;
+  }
+  return cost;
+}
+// console.log()
 
 
 
@@ -32,6 +41,7 @@ $(document).ready(function() {
     var newOrder = new Order(name, size, toppings);
     // console.log(name);
 
-    $("#output").text(name + ", " + size + ", " + toppings);
+    // $("#output").text(name + ", " + size + ", " + toppings);
+    $(".price").text(" $" + newOrder.price);
   });
 });
