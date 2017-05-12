@@ -15,15 +15,29 @@ body{
   text-align: center;
   background-image: url("../img/pizza-back2.jpg");
   background-size: contain;
+  background-position: center;
+  color: #aa392c;
 }
 
-.jumbotron h4 {
+.jumbotron h3 {
   font-family: 'Space Mono', monospace;
 }
+
+h4 {
+  font-family: 'Space Mono', sans-serif;
+  color: #aa392c;
+}
+
+.name {
+  color: #aa392c;
+}
+
 
 
 
 
 #output {
   display: none;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #f8f7ec; 
 }

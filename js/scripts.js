@@ -38,10 +38,10 @@ $(document).ready(function() {
     var newOrder = new Order(name, size, toppings);
     // console.log(name);
 
-    // $("#output").text(name + ", " + size + ", " + toppings);
     $("#output").show();
     $(".price").text(" $" + newOrder.price);
     $(".name").text(name);
     $(".topping").text(toppings);
   });
 });
+// $("#output").text(name + ", " + size + ", " + toppings);
