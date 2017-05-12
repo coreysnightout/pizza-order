@@ -32,12 +32,12 @@ h4 {
   color: #aa392c;
 }
 
-
-
-
-
 #output {
   display: none;
   font-family: 'Rubik Mono One', sans-serif;
-  color: #f8f7ec; 
+  color: #f8f7ec;
+}
+
+.finalOrder {
+  color: #f8f7ec;
 }
