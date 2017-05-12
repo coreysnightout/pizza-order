@@ -1,3 +1,14 @@
+body{
+  background-image: url("../img/pizza.jpg");
+  background-origin: border-box;
+}
+.jumbotron {
+  text-align: center;
+}
+
+
+
+
 #output {
   display: none;
 }
