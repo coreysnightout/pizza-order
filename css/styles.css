@@ -1,9 +1,24 @@
 body{
   background-image: url("../img/pizza.jpg");
-  background-origin: border-box;
+  background-repeat: repeat-x;
+}
+
+#userInput {
+  border-radius: 5px;
+  background-color: rgba(236, 229, 174, 1);
+  padding: 10px;
+  margin: 20px 0;
+  color: #white;
 }
 .jumbotron {
+  font-family: 'Rubik Mono One', sans-serif;
   text-align: center;
+  background-image: url("../img/pizza-back2.jpg");
+  background-size: contain;
+}
+
+.jumbotron h4 {
+  font-family: 'Space Mono', monospace;
 }
 
 
