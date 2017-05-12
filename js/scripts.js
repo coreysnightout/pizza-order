@@ -16,17 +16,6 @@ Order.prototype.orderPrice = function () {
 // console.log()
 
 
-
-
-
-
-
-
-
-
-
-
-
 //// Front End ////
 $(document).ready(function() {
   $("form#userInput").submit(function(event) {
@@ -42,6 +31,8 @@ $(document).ready(function() {
     // console.log(name);
 
     // $("#output").text(name + ", " + size + ", " + toppings);
+    $("#output").show();
     $(".price").text(" $" + newOrder.price);
+    $(".name").text(name);
   });
 });
