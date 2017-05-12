@@ -1,5 +1,10 @@
 //// Back End ////
-
+function Order(name, size, toppings) {
+  this.name = name;
+  this.size = size;
+  this.toppings = toppings;
+  this.price = this.
+}
 
 
 
@@ -24,8 +29,9 @@ $(document).ready(function() {
     $(":checkbox:checked").each(function(i){
       toppings[i] = $(this).val();
     });
+    var newOrder = new Order(name, size, toppings);
     // console.log(name);
 
-    $("#output").text(name + ", " + size);
+    $("#output").text(name + ", " + size + ", " + toppings);
   });
 });
